@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 // Definir una ruta básica (endpoint) de prueba
 app.get("/", (req, res) => {
-res.send("🚀 Servidor Express funcionando correctamente");
+res.send("🚀 Hola, Soy Francisco Garrido");
 });
 // Definir el puerto donde escuchará el servidor
 const PORT = 3000;
