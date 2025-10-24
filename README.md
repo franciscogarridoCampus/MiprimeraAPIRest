@@ -1,3 +1,4 @@
 # MiprimeraAPIRest
 
-Desde la teoria RA1-9. Talleres en el de RA1-5 usando node.js creamos un pakcage.json usando el cmd de node nos fuimos a la carpeta y escribimos npm init -y y se gneero el pakcage.json ahora para añadir la libreria node_modules pusimosnpm install express
+Desde la teoria RA1-9. Talleres en el de RA1-5 usando node.js creamos un pakcage.json usando el cmd de node nos fuimos a la carpeta y escribimos npm init -y y se geneero el pakcage.json ahora para añadir la libreria node_modules pusimos npm install express
+luego en la terminal de vscode pusimos node server.js y daba una url para ver los cambiso y si queremos que se actualcie automaticamente en vez de parar el node server.js usamos nodemon, dede la terminal de Node.js escribimos npm install -g nodemon y luego npm install --save-dev nodemon y luego inciamos nodemos desde la terminal de node.js poniendo nodemon server.js (desde la carpeta MiprimeraApiRest) y ahora si actualizamos el mensaje del serve.js y actualizamos la url dandole F5 se vera que se ha cambiado en vez de cerarlo cuando ponemos node server.js
